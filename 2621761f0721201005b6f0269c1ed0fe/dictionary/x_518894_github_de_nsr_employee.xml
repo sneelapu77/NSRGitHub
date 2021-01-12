@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NSR Employee" max_length="40" name="x_518894_github_de_nsr_employee" type="collection">
+        <element label="ENO" max_length="40" name="eno" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Salary" max_length="20" name="salary" type="currency"/>
+    </element>
+</database>
